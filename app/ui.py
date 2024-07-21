@@ -18,7 +18,7 @@ class SyllabusConverterApp:
         self.root.geometry(f"{window_width}x{window_height}+{x}+{y}")
         
         # set window icon
-        # self.root.iconbitmap("logo.ico") # not working!!
+        self.root.iconbitmap("img/icon.ico") 
         
         # syllabus pdf section
         self.label_pdf = tk.Label(root, text="Syllabus PDF:")

@@ -3,7 +3,7 @@
 ![Python Version](https://img.shields.io/badge/python-3.6%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-A user-friendly desktop application that converts VIT syllabus PDFs into structured Markdown files, making it easier to manage  course materials.
+A user-friendly desktop application that converts VIT theory syllabus PDFs into structured Markdown files, making it easier to manage  course materials.
 
 <!--  -->
 
@@ -16,7 +16,7 @@ A user-friendly desktop application that converts VIT syllabus PDFs into structu
 
 ## Installation
 
-1. Ensure you have Python 3.6 or higher installed on your system.
+1. Ensure you have Python installed on your system.
 
 2. Clone this repository:
    ```
@@ -37,6 +37,8 @@ A user-friendly desktop application that converts VIT syllabus PDFs into structu
    ```
 
 2. In the application window:
+
+![UI](img\mainUi.png)
    - Click "Browse" next to "Syllabus PDF" to select your input PDF file.
    - Click "Browse" next to "Markdown File" to choose the save location for the output Markdown file.
    - Click "Convert PDF to Markdown" to start the conversion process.
@@ -45,27 +47,14 @@ A user-friendly desktop application that converts VIT syllabus PDFs into structu
 
 ## Example
 
-Input PDF structure:
-```
-Module:1 Introduction to Computer Science
-- Basic concepts: algorithms, data structures
-- History of computing
-- Introduction to programming languages: Python, Java, C++
-```
+Input PDF :
+
+![UI Image](img\syllabus.png)
 
 Output Markdown:
-```markdown
-## Module 1: Introduction to Computer Science
 
-- [ ] Basic concepts:
-  - [ ] algorithms
-  - [ ] data structures
-- [ ] History of computing
-- [ ] Introduction to programming languages:
-  - [ ] Python
-  - [ ] Java
-  - [ ] C++
-```
+![Output](img/syllabusMd.png)
+
 
 ## Contributing
 
