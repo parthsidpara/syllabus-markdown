@@ -38,7 +38,7 @@ A user-friendly desktop application that converts VIT theory syllabus PDFs into 
 
 2. In the application window:
 
-![UI](img\mainUi.png)
+![UI](img/mainUi.png)
    - Click "Browse" next to "Syllabus PDF" to select your input PDF file.
    - Click "Browse" next to "Markdown File" to choose the save location for the output Markdown file.
    - Click "Convert PDF to Markdown" to start the conversion process.
@@ -49,7 +49,7 @@ A user-friendly desktop application that converts VIT theory syllabus PDFs into 
 
 Input PDF :
 
-![UI Image](img\syllabus.png)
+![UI Image](img/syllabus.png)
 
 Output Markdown:
 
